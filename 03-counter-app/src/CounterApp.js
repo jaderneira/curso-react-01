@@ -8,19 +8,10 @@ export default function CounterApp({ value  }) {
     
 
     // handleAdd
-    const handleAdd = (e) => {
-        setCounter( counter + 1 );
-        //setCounter( (c) => c + 1 );
-    }
-
-    const handleSubtract = (e) => {
-        setCounter( counter - 1 );        
-    }
-
-    const handleReset = (e) => {
-        setCounter( value );
-    }
-    
+    const handleAdd = () => setCounter( counter + 1 );
+    const handleSubtract = () => setCounter( counter - 1 );
+    const handleReset = () => setCounter( value );
+        
     return (
         <>
             <h1>CounterApp</h1>
