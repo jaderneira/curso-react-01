@@ -5,9 +5,9 @@ const PrimeraApp = ({ saludo, subtitulo }) => {
     
     return (
         <>
-            <h1> { saludo } </h1>
+            <h1>{ saludo }</h1>
             {/* <pre>{ JSON.stringify(saludo , null, 4) }</pre> */}
-            <p> { subtitulo } </p>
+            <p>{ subtitulo }</p>
         </>
     );
      
