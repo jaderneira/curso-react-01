@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import PrimeraApp from './PrimeraApp';
+//import PrimeraApp from './PrimeraApp';
 import './index.css';
-//import CounterApp from './CounterApp';
+import CounterApp from './CounterApp';
 
 const divRoot = document.querySelector("#root");
 
-ReactDOM.render( <PrimeraApp saludo='Hola Goku' />, divRoot);
-//ReactDOM.render( <CounterApp value={ 1 } />, divRoot);
+//ReactDOM.render( <PrimeraApp saludo='Hola Goku' />, divRoot);
+ReactDOM.render( <CounterApp />, divRoot);
